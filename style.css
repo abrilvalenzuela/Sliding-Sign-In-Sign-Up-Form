@@ -10,11 +10,11 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
-
+ /* parte de atras*/
 .container {
   position: relative;
   width: 100%;
-  background-color: #fff;
+  background-color: #B0D28D;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -59,17 +59,17 @@ form.sign-up-form {
 form.sign-in-form {
   z-index: 2;
 }
-
+/* titulo de inicia sesion*/
 .title {
   font-size: 2.2rem;
-  color: #444;
+  color: #000000;
   margin-bottom: 10px;
 }
-
+/*color para los cosito */
 .input-field {
   max-width: 380px;
   width: 100%;
-  background-color: #f0f0f0;
+  background-color: #fcfcfc;
   margin: 10px 0;
   height: 55px;
   border-radius: 55px;
@@ -78,7 +78,7 @@ form.sign-in-form {
   padding: 0 0.4rem;
   position: relative;
 }
-
+/* color de los iconos de los cositos*/
 .input-field i {
   text-align: center;
   line-height: 55px;
@@ -96,9 +96,9 @@ form.sign-in-form {
   font-size: 1.1rem;
   color: #333;
 }
-
+/* color para lo q esta escrito dentro de los cositos */
 .input-field input::placeholder {
-  color: #aaa;
+  color: #666464;
   font-weight: 500;
 }
 
@@ -111,7 +111,7 @@ form.sign-in-form {
   display: flex;
   justify-content: center;
 }
-
+/*color p la plataformas */
 .social-icon {
   height: 46px;
   width: 46px;
@@ -128,18 +128,18 @@ form.sign-in-form {
 }
 
 .social-icon:hover {
-  color: #4481eb;
-  border-color: #4481eb;
+  color: #134611;
+  border-color: #134611;
 }
-
+/* boton*/
 .btn {
   width: 150px;
-  background-color: #5995fd;
+  background-color: #99C66F;
   border: none;
   outline: none;
   height: 49px;
   border-radius: 49px;
-  color: #fff;
+  color: #000000;
   text-transform: uppercase;
   font-weight: 600;
   margin: 10px 0;
@@ -148,7 +148,7 @@ form.sign-in-form {
 }
 
 .btn:hover {
-  background-color: #4d84e2;
+  background-color: #1a7e16;
 }
 .panels-container {
   position: absolute;
@@ -168,16 +168,10 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  background-color: #99C66F;
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
-}
-
-.image {
-  width: 100%;
-  transition: transform 1.1s ease-in-out;
-  transition-delay: 0.4s;
 }
 
 .panel {
@@ -200,7 +194,7 @@ form.sign-in-form {
 }
 
 .panel .content {
-  color: #fff;
+  color: #000000;
   transition: transform 0.9s ease-in-out;
   transition-delay: 0.6s;
 }
@@ -219,7 +213,7 @@ form.sign-in-form {
 .btn.transparent {
   margin: 0;
   background: none;
-  border: 2px solid #fff;
+  border: 2px solid #06680d;
   width: 130px;
   height: 41px;
   font-weight: 600;
@@ -231,7 +225,7 @@ form.sign-in-form {
   transform: translateX(800px);
 }
 
-/* ANIMATION */
+/* animacion */
 
 .container.sign-up-mode:before {
   transform: translate(100%, -50%);
@@ -306,12 +300,6 @@ form.sign-in-form {
 
   .left-panel {
     grid-row: 1 / 2;
-  }
-
-  .image {
-    width: 200px;
-    transition: transform 0.9s ease-in-out;
-    transition-delay: 0.6s;
   }
 
   .panel .content {
